@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+  /* Changing or adding a color */
+  --color-brand-primary: #3f3cbb;
+  --color-brand-dark: oklch(0.2 0.05 250);
+
+  /* Changing a default breakpoint */
+  --breakpoint-sm: 30rem;
+
+  /* Customizing a font family */
+  --font-display: "Satoshi", "sans-serif";
+}
